@@ -1,4 +1,4 @@
 'use strict';
-var opts = { outputMode: 'inspect' };
+var opts = { outputMode: 'short-with-json' };
 var exampleLogs = require('./example-logs');
 exampleLogs(opts);

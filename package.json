@@ -1,6 +1,6 @@
 {
-  "name": "bunyan-format",
-  "version": "0.2.1",
+  "name": "@bshevlin/bunyan-format",
+  "version": "0.3.0",
   "description": "Writable stream that formats bunyan records that are piped into it.",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/bunyan-format.git"
+    "url": "git://github.com/bshevlin/bunyan-format.git"
   },
-  "homepage": "https://github.com/thlorenz/bunyan-format",
+  "homepage": "https://github.com/bshevlin/bunyan-format",
   "dependencies": {
     "ansistyles": "~0.1.1",
     "ansicolors": "~0.2.1",
@@ -35,10 +35,19 @@
     "email": "thlorenz@gmx.de",
     "url": "http://thlorenz.com"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/thlorenz/bunyan-format/blob/master/LICENSE"
-  },
+  "contributors": [
+    {
+      "name": "Barry Shevlin",
+      "url": "https://github.com/bshevlin"
+    },
+    {
+      "name": "Viktor Zeltser"
+    },
+    {
+      "name": "Jorge Berroa"
+    }
+  ],
+  "license": "MIT",
   "engine": {
     "node": ">=0.10"
   }
