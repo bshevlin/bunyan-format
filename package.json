@@ -3,9 +3,6 @@
   "version": "0.3.1",
   "description": "Writable stream that formats bunyan records that are piped into it.",
   "main": "index.js",
-  "scripts": {
-    "test": "tap test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/bshevlin/bunyan-format.git"
@@ -17,11 +14,11 @@
     "xtend": "~2.1.1"
   },
   "devDependencies": {
-    "tap": "~0.4.3",
-    "bunyan": "~0.22.0"
+    "bunyan": "^1.8.15"
   },
   "keywords": [
     "bunyan",
+    "papertrail",
     "stream",
     "log",
     "logger",
@@ -31,20 +28,21 @@
     "style"
   ],
   "author": {
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
+    "name": "Barry Shevlin",
+    "url": "https://github.com/bshevlin"
   },
   "contributors": [
     {
-      "name": "Barry Shevlin",
-      "url": "https://github.com/bshevlin"
+      "name": "Thorsten Lorenz",
+      "email": "thlorenz@gmx.de",
+      "url": "http://thlorenz.com"
     },
     {
       "name": "Viktor Zeltser"
     },
     {
-      "name": "Jorge Berroa"
+      "name": "Jorge Berroa",
+      "url": "https://github.com/jberroa"
     }
   ],
   "license": "MIT",

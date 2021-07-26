@@ -1,6 +1,8 @@
 # @bshevlin/bunyan-format
 
-Writable stream that formats bunyan records that are piped into it
+Writable stream that formats bunyan records that are piped into it. 
+
+Includes formats optimized for Papertrail's JSON log support.
 
 ```js
 var bunyan = require('bunyan');
@@ -56,7 +58,7 @@ $ node example/json-string-level.js
  * @typedef BunyanFormatOptions
  * @type {object}
  * @property {string} outputMode - short|long|simple|json|bunyan|short-with-json|long-with-json
- * @property {boolean} [color=false] - toggles colors in output
+ * @property {boolean} [color=true] - toggles colors in output
  * @property {object} [colorFromLevel] - allows overriding log level colors.
  */
 ```

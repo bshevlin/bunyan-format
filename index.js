@@ -16,7 +16,7 @@ util.inherits(BunyanFormatWritable, Writable);
  * @typedef BunyanFormatOptions
  * @type {object}
  * @property {string} outputMode - short|long|simple|json|bunyan|short-with-json|long-with-json
- * @property {boolean} [color=false] - toggles colors in output
+ * @property {boolean} [color=true] - toggles colors in output
  * @property {object} [colorFromLevel] - allows overriding log level colors.
  */
 
